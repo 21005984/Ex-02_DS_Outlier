@@ -4,7 +4,7 @@
 
 To Detect and Remove Outliers from the given Dataset.
 
-## EXPLAINATION:
+# EXPLAINATION:
 
 Outlier is a data object that deviates significantly from the rest of the data objects and behaves in a different manner. They can be caused by measurement or execution errors. The analysis of outlier data is referred to as outlier analysis or outlier mining. The box plot is a useful graphical display for describing the behavior of the data in the middle as well as at the ends of the distributions. The box plot uses the median and the lower and upper quartiles (defined as the 25th and 75th percentiles). If the lower quartile is Q1 and the upper quartile is Q3, then the difference (Q3 - Q1) is called the interquartile range or IQ.
 
@@ -34,7 +34,7 @@ Apply Z-score function defined in scipy library to detect the outliers.
 
 Apply Statistical Method "Interquartile Range(IQR)" ,to remove the Outliers from the Dataset.
 
-## CODE:
+# CODE:
 
 ~~~
 import pandas as pd 
@@ -60,12 +60,12 @@ df2_new.boxplot()
 df2_new
 ~~~
 
-### OUTPUT :
+## OUTPUT :
 
-![output](.//W1.PNG)
-![output](.//W2.PNG)
-![output](.//W3.PNG)
-![output](.//W4.PNG)
-![output](.//W5.PNG)
-![output](.//W6.PNG)
+![output](.//W1.png)
+![output](.//W2.png)
+![output](.//W3.png)
+![output](.//W4.png)
+![output](.//W5.png)
+![output](.//W6.png)
 
