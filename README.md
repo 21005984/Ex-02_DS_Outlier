@@ -69,3 +69,6 @@ df2_new
 ![output](.//W5.png)
 ![output](.//W6.png)
 
+# RESULT:
+
+The Outliers are detected and removed from the Dataset.
